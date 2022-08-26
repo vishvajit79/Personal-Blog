@@ -10,20 +10,31 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Vishvajit</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Currently living in <span className="text-yellow-400">Toronto</span>.
+          I'm into outdoor adventures of all sorts -{' '}
+          <span className="text-cyan-400 hover:underline">Camping</span>,{' '}
+          <span className="text-red-400 hover:underline">
+            Canoeing - Kayaking
+          </span>
+          ,{' '}
+          <span className="text-purple-400 hover:underline">
+            Mountain Biking
+          </span>{' '}
+          and <span className="text-green-400 hover:underline">Hiking</span>. I
+          like to make entertaining, informative, and concise adventure videos
+          with dribbles of humor. I don't pretend to know it all, I'm learning a
+          ton as I go, but I have{' '}
+          <span className="text-gray-400 hover:underline">little</span> fear of
+          failure so come join me on this journey of outdoor fun and discovery{' '}
+          <span className="text-red-400 hover:underline">:)</span> <br></br>
+          <a className="text-orange-400 hover:underline" href="/">
+            #WeDesiBoy
+          </a>
         </>
       }
       avatar={
@@ -36,28 +47,22 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://www.youtube.com/channel/UCkMWEPJv5bYw4bP_a83xBug?sub_confirmation=1">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
+            />
+          </a>
+          <a href="https://www.instagram.com/vishvajit79/">
+            <HeroSocial
+              src="/assets/images/instagram-icon.png"
+              alt="Instagram icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/vishvajit79/">
+            <HeroSocial
+              src="/assets/images/linkedin-icon.png"
+              alt="Linkedin icon"
             />
           </a>
         </>
